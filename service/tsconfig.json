@@ -1,0 +1,12 @@
+{
+    "extends": "../tsconfig.json",
+    "include": ["src/**.ts"],
+    "compilerOptions": {
+        "outDir": "dist",
+        "strict": true,
+        "composite": true
+    },
+    "references": [
+        { "path": "../libs/tsconfig.json" },
+    ]
+}

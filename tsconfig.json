@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "@p/lib1": ["libs/lib1/src/index.ts"],
+            "@p/lib2": ["libs/lib2/src/index.ts"]
+        },
+        "composite": true,
+    },
+    "references": [
+        { "path": "./libs/tsconfig.json" },
+        { "path": "./service/tsconfig.json" }
+    ]
+}
