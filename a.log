@@ -1,0 +1,12 @@
+
+> ex1@1.0.0 build-watch:with-project-references
+> tsc --build --watch tsconfig.with-project-references.json
+
+[2J[3J[H16:38:23 - Starting compilation in watch mode...
+
+
+16:38:23 - Found 0 errors. Watching for file changes.
+[2J[3J[H16:40:13 - File change detected. Starting incremental compilation...
+
+
+16:40:14 - Found 0 errors. Watching for file changes.

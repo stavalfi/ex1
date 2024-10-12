@@ -1,6 +1,5 @@
 {
     "extends": "../tsconfig.json",
-    "include": ["./src/**/*.ts", "src/file1.js"],
     "compilerOptions": {
         "outDir": "./dist",
         "incremental": true,
@@ -8,6 +7,7 @@
         "composite": true,
     },
     "references": [
-        { "path": "../libs/tsconfig.json" },
+        { "path": "./lib1/tsconfig.json" },
+        { "path": "./lib2/tsconfig.json" },
     ]
 }
