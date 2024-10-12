@@ -1,8 +1,9 @@
 {
-    "extends": "../tsconfig.json",
+    "extends": "../../tsconfig.with-project-references.json",
     "include": ["./src/**/*.ts"],
     "compilerOptions": {
+        "outDir": "./dist",
+        "tsBuildInfoFile": "./dist/.tsbuildinfo",
         "composite": true,
-        "tsBuildInfoFile": ".tsbuildinfo"   
     }
 }
