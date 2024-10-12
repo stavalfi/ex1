@@ -4,7 +4,7 @@
         "outDir": "./dist-with-project-references",
         "incremental": true,
         "tsBuildInfoFile": "./dist-with-project-references/.tsbuildinfo",
-        "composite": true,
+        "composite": true
     },
     "references": [
         { "path": "./libs/lib1/tsconfig.json" },
