@@ -6,9 +6,9 @@
     "build-watch:without-project-references": "tsc --watch --project tsconfig.without-project-references.json",
     "start:from-typscript":"ts-node -r tsconfig-paths/register ./service/src/index.ts"
   },
-  "dependencies": {
+  "devDependencies": {
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.4.5"
+    "typescript": "5.6.3"
   }
 }
