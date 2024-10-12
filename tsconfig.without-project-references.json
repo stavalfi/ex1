@@ -2,6 +2,7 @@
     "extends": "./tsconfig.json",
     "compilerOptions": {
         "outDir": "dist-without-project-references",
+        "tsBuildInfoFile": "./dist-without-project-references/.tsbuildinfo",
         "incremental": true,
     },
     "include": ["**/*.ts"]
