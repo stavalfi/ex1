@@ -4,11 +4,11 @@
   "scripts": {
     "build-watch:with-project-references": "tsc --build --watch tsconfig.with-project-references.json",
     "build-watch:without-project-references": "tsc --watch --project tsconfig.without-project-references.json",
-    "start:from-typscript":"ts-node -r tsconfig-paths/register ./service/src/index.ts"
+    "start:from-typscript": "tsx -r tsconfig-paths/register ./service/src/index.ts"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.1",
     "typescript": "5.6.3"
   }
 }
