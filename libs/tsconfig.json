@@ -1,7 +1,8 @@
 {
-    "extends": "../tsconfig.json",
+    "extends": "../tsconfig.without-project-references.json",
     "compilerOptions": {
-        "composite": true
+        "composite": true,
+        "tsBuildInfoFile": ".tsbuildinfo"   
     },
     "references": [
         { "path": "./lib1/tsconfig.json" },

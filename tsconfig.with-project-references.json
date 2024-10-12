@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "dist-with-project-references",
+        "tsBuildInfoFile": "dist-with-project-references/.tsbuildinfo",
+        "incremental": true,
+        "composite": true,
+    },
+    "references": [
+        { "path": "./libs/tsconfig.json" },
+        { "path": "./service/tsconfig.json" }
+    ]
+}
