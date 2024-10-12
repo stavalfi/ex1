@@ -2,6 +2,7 @@
     "extends": "./tsconfig.json",
     "compilerOptions": {
         "outDir": "./dist-with-project-references",
+        "incremental": true,
         "tsBuildInfoFile": "./dist-with-project-references/.tsbuildinfo",
         "composite": true,
     },
